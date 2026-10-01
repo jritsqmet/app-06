@@ -41,8 +41,9 @@ public class main {
 
             case 4:
                 System.out.println("Daniel Aguilar");
+
+                System.out.println("PROFESOR");
                 break;
-                
         }
 
     }
