@@ -46,7 +46,7 @@ public class main {
                 break;
         }
 
+        JOptionPane.showMessageDialog(null, "el salario es "+ salario)
         
-       
     }
 }
