@@ -9,11 +9,10 @@ import java.util.Scanner;
 // SI ES MÉDICO EL SALARIO SE INCREMENTA EN $200 USD
 // SI ES PROGRAMADOR AL SALARIO SE SE INCREMENTA EL 15% DEL SALARIO
 // SI ES ABOGADO SE INCREMENTA $50 SIEMPRE Y CUANDO SEA MAYOR DE 60 AÑOS
- 
 public class main {
- 
+
     public static void main(String[] args) {
-        
+
         int edad;
         double salario;
         int opcion;
@@ -26,7 +25,6 @@ public class main {
         System.out.println("Ingresa el salario: ");
         salario = entrada.nextDouble();
 
-
         System.out.println("##############################");
         System.out.println("1. Es médico");
         System.out.println("2. Es programador");
@@ -34,15 +32,17 @@ public class main {
         System.out.println("Ingresa una opción: ");
         opcion = entrada.nextInt();
 
-        switch(opcion){
+        switch (opcion) {
             case 1:
 
             case 2:
 
             case 3:
+
+            case 4:
+                System.out.println("Daniel Aguilar");
+                break;
         }
 
-
-       
     }
 }
