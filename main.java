@@ -42,14 +42,14 @@ public class main {
 
             case 3:
 
-            case 4: 
+            case 4:
                 System.out.println("DOMENICA");
                 System.out.println("Daniel Aguilar");
                 System.out.println("PROFESOR");
                 break;
-        }
 
-        JOptionPane.showMessageDialog(null, "El salario es "+ salario);
+        }
+        JOptionPane.showConfirmDialog(null, "El salario es" + salario );
        
     }
 }
