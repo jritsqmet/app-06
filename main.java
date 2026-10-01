@@ -40,11 +40,14 @@ public class main {
             case 2:
 
             case 3:
+
             case 4: 
-             System.out.println("DOMENICA");
+                System.out.println("DOMENICA");
+                System.out.println("PROFESOR");
+                break;
         }
 
         
        
     }
-}git
+}
