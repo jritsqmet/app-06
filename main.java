@@ -50,6 +50,6 @@ public class main {
 
         }
         JOptionPane.showConfirmDialog(null, "El salario es" + salario );
-
+       
     }
 }
